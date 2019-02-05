@@ -216,11 +216,6 @@ img { max-width: 100%; }
 }
 .logo-nav {
   padding: 6px 0 10px 0;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  -ms-transition: all 0.3s;
-  -o-transition: all 0.3s;
-  transition: all 0.3s;
   width: 1000px;
   display: block;
 }
