@@ -154,8 +154,8 @@ img { max-width: 100%; }
   padding: 120px 0;
   display: block;
 }
-.darkgrey-bg {
-  background: #878787;
+.grey-bg {
+  background: #787878;
   padding: 120px 0;
   display: block;
 }
@@ -291,7 +291,6 @@ img { max-width: 100%; }
 
 .menu-button span:nth-child(3) {top: 18px;}
 .menu-button:hover {opacity: 0.6;}
-
 /* Close Button */
 .close-button {
   width: 1em;
@@ -824,7 +823,6 @@ ul.portfolio-image li .desc{
   z-index: 1;
   position: relative;
 }
-
 /*-------------- e. blog -------------*/
 .grid {margin-top: 60px;}
 .grid:after {
