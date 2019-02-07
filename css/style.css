@@ -510,7 +510,7 @@ p {
 
 /*----------------------------------------- 6) Hero --------------------------------------------------*/
 #home {
-  /*background: url('../images/CSBSJU.jpg');*/
+  background: url('../images/CSBSJU.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
