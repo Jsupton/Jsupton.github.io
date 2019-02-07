@@ -154,11 +154,6 @@ img { max-width: 100%; }
   padding: 120px 0;
   display: block;
 }
-.darkgrey-bg {
-  background: #e5e5e5;
-  padding: 120px 0;
-  display: block;
-}
 .white-bg {
   background: #ffffff;
   padding: 120px 0;
@@ -842,7 +837,7 @@ ul.portfolio-image li .desc{
   margin-bottom: 30px;
 }
 .grid-item .wrap-article {
-  border: 1px solid rgba(129, 129, 129, 0.1);
+  border: 4px solid rgba(129, 129, 129, 0.5);
   background: #ffffff;
   padding: 30px 20px;
 }
