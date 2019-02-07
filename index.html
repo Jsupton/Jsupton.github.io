@@ -1,3 +1,19 @@
+<?php
+
+if($_POST["submit"]) {
+    $recipient="your@email.address";
+    $subject="Form to email message";
+    $sender=$_POST["sender"];
+    $senderEmail=$_POST["senderEmail"];
+    $message=$_POST["message"];
+
+    $mailBody="Name: $sender\nEmail: $senderEmail\n\n$message";
+
+    mail($recipient, $subject, $mailBody, "From: $sender <$senderEmail>");
+
+    $thankYou="<p>Thank you! Your message has been sent.</p>";
+}?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -879,7 +895,7 @@
         <section id="contact" class="white-bg">
           <div class="container">
             <div class="row">
-              <div class="col-md-3">
+              <!--<div class="col-md-3">
                 <h3 class="title-small">
                   <span>Contact</span>
                 </h3>
@@ -889,7 +905,7 @@
 
               </div>
               <div class="col-md-9 content-right">
-                <form>
+                <form action="mailto:jsupton@csbsju.edu" method="post" enctype="text/plain">
                   <div class="group">
                     <input required="" type="text"><span class="highlight"></span><span class="bar"></span><label>Name</label>
                   </div>
@@ -901,7 +917,22 @@
                   </div>
                   <input id="sendMessage" name="sendMessage" type="submit" value="Send Message">
                 </form>
-              </div>
+              </div>-->
+                <?=$thankYou ?>
+
+                <form method="post" action="contact.php">
+                    <label>Name:</label>
+                    <input name="sender">
+
+                    <label>Email address:</label>
+                    <input name="senderEmail">
+
+                    <label>Message:</label>
+                    <textarea rows="5" cols="20" name="message"></textarea>
+
+                    <input type="submit" name="submit">
+                </form>
+
             </div>
           </div>
         </section>
