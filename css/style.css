@@ -824,51 +824,6 @@ ul.portfolio-image li .desc{
   position: relative;
 }
 
-/*---------- d. photo -----------*/
-#photo {
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: relative;
-  padding: 0;
-  margin: 0;
-  width: 100%;
-  height: ;
-}
-.list-photo {
-  display: block;
-  width: 100%;
-}
-.list-photo .content-photo {
-  text-align: center;
-  color: #ffffff;
-}
-.list-photo .content-photo .testi {
-  font-size: 16px;
-  line-height: 46px;
-  letter-spacing: 2px;
-}
-.list-photo .content-photo .people {
-  font-size: 14px;
-  margin-top: 30px;
-  letter-spacing: 2px;
-  color: #B7B7B7;
-  font-weight: 700;
-}
-.mask-photo{
-  background-color: rgba(47, 47, 47, 0.7);
-  height: 100%;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 100%;
-}
-.wrap-photo{
-  z-index: 1;
-  position: relative;
-}
 /*-------------- e. blog -------------*/
 .grid {margin-top: 60px;}
 .grid:after {
